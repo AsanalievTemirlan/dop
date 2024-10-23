@@ -29,7 +29,6 @@ public class Main {
 
         System.out.println(calculate(1,3, "-"));
         System.out.println(three());
-        one();
         two(12);
 
         ArrayList<String> names = new ArrayList<>();
@@ -65,11 +64,6 @@ public class Main {
 
     }
 
-    static  void one(){
-        System.out.println("Hello");
-        System.out.println("My");
-        System.out.println("Friend");
-    }
 
     static void two(int a){
         System.out.println(a);
